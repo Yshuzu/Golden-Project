@@ -36,15 +36,21 @@ section {
 
 /* Navigation */
 
-
+.header {
+    background-image: url("images/header.jpeg");
+    color: $text-two;
+    text-align: center;
+    padding: 24px 0;
+}
 .navigation {
-    background: $color-one;
-    padding: 12px 0;
+    
+    padding: 12px 0 0 80px;
     
     ul {
         padding: 0;
         margin: 0;
-        list-style-type: none; 
+        list-style-type: none;
+        color: #33d9b2;
     }
 
     li {
@@ -88,10 +94,25 @@ section {
     }
 }
 
+/* services */
+
+.services {
+    background: #f0d7d7;
+    color: $text-two;
+    text-align: center;
+
+    img {
+        width: 10%;
+        height: 20%;
+        color-scheme: yellow;
+    }
+}
+
+
 /* portfolio */
 
 .portfolio {
-    background: $color-two;
+    background: rgb(185, 234, 250);
     color: $text-one;
     text-align: center;
 }
