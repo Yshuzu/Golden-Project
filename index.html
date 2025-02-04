@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekt - Golden</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Insolata:400,600,700">
     <link rel="stylesheet" href="vendor/bootstrap-grid.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
     <body>
         <header class="header">
             <nav class="navigation">
-                <div class="container">
-                    <div class="logo">
+                <div class="container row">
+                    <div class="logo_nav col-4">
                         <a href="#">Golden</a>
-                        <ul>
+                    </div>
+                    <div class="navigation col-8">
+                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">SERVICES</a></li>
                         <li><a href="#">PORTFOLIO</a></li>
@@ -37,18 +42,18 @@
                     <h2 class="section-title">SERVICES</h2>
                     <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, beatae.</p>
                     <div class="row">
-                        <div class="service col-4">
-                            <img src="images/basket-shopping-solid.svg">
+                        <div class="service col-12 col-sm-6 col-lg-4 mb-4">
+                            <img href="#" src="images/basket-shopping-solid.svg" alt="E-Commerce">
                             <h3 class="service-title">E-Commerce</h3>
                             <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, beatae.</p>
                         </div>
-                        <div class="service col-4">
-                            <img src="images/laptop-solid.svg">
+                        <div class="service col-12 col-sm-6 col-lg-4 mb-4">
+                            <img src="images/laptop-solid.svg" alt="Responsive Design">
                             <h3 class="service-title">Responsive Design</h3>
                             <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, beatae.</p>
                         </div>
-                        <div class="service col-4">
-                            <img src="images/lock-solid.svg">
+                        <div class="service col-12 col-sm-12 col-lg-4 mb-4">
+                            <img src="images/lock-solid.svg" alt="Web Security">
                             <h3 class="service-title">Web Security</h3>
                             <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, beatae.</p>
                         </div>
@@ -58,41 +63,71 @@
 
         <section class="portfolio">
             <div class="container">
-                <h2 class="section-title">PORTFOLIO</h2>
+                <h2 class="section-title">OUR PORTFOLIO</h2>
                 <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, beatae.</p>
-                <div class="portfolio-wrapper">
-                    <div class="portfolio-item">
-                        <img src="images/portfolio1.jpg" alt="Portfolio 1">
-                        <h3 class="portfolio-title">Project One</h3>
-                        <p class="portfolio-description">Description for project one.</p>
+                <div class="row">
+                    <div class="portfolio-item col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/ebony2.png" alt="Portfolio 1">
+                            <h3 class="portfolio-title">Ebony &amp; Ivory</h3>
+                            <p class="portfolio-description">Branding</p>
+                        </div>
                     </div>
-                    <div class="portfolio-item">
-                        <img src="images/portfolio2.jpg" alt="Portfolio 2">
-                        <h3 class="portfolio-title">Project Two</h3>
-                        <p class="portfolio-description">Description for project two.</p>
+                    <div class="portfolio-item col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/smart.jpeg" alt="Portfolio 2">
+                            <h3 class="portfolio-title">Smart Stationary</h3>
+                            <p class="portfolio-description">Print Design</p>
+                        </div>
                     </div>
-                    <div class="portfolio-item">
-                        <img src="images/portfolio3.jpg" alt="Portfolio 3">
-                        <h3 class="portfolio-title">Project Three</h3>
-                        <p class="portfolio-description">Description for project three.</p>
+                    <div class="portfolio-item col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/clever.jpeg.webp" alt="Portfolio 3">
+                            <h3 class="portfolio-title">Clever Poster</h3>
+                            <p class="portfolio-description">Print Design</p>
+                        </div>
                     </div>
-                    <div class="portfolio-item">
-                        <img src="images/portfolio4.jpg" alt="Portfolio 4">
-                        <h3 class="portfolio-title">Project Four</h3>
-                        <p class="portfolio-description">Description for project four.</p>
+                    <div class="portfolio-item col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/vinyl.webp" alt="Portfolio 4">
+                            <h3 class="portfolio-title">Vinyl Record</h3>
+                            <p class="portfolio-description">Product Mock-Up</p>
+                        </div>
                     </div>
-                    <div class="portfolio-item">
-                        <img src="images/portfolio5.jpg" alt="Portfolio 5">
-                        <h3 class="portfolio-title">Project Five</h3>
-                        <p class="portfolio-description">Description for project five.</p>
+                    <div class="portfolio-item col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/treehouse.jpeg" alt="Portfolio 5">
+                            <h3 class="portfolio-title">Treehouse Tamplete</h3>
+                            <p class="portfolio-description">Web Design</p>
+                        </div>
                     </div>
-                    <div class="portfolio-item">
-                        <img src="images/portfolio6.jpg" alt="Portfolio 6">
-                        <h3 class="portfolio-title">Project Six</h3>
-                        <p class="portfolio-description">Description for project six.</p>
+                    <div class="portfolio-item col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="images/burned_logo.jpeg" alt="Portfolio 6">
+                            <h3 class="portfolio-title">Burned Logo</h3>
+                            <p class="portfolio-description">Branding</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </body>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-sm-6">
+                    <p class="Copyright">© Copyright 2014 FreebiesXpress.com</p>
+                </div>
+                <div class="footer-col col-sm-6">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
 </html>
